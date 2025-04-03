@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "your_email@example.com",
+                "Name": "Your Name"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Displays the ZEC/USDT price from Binance (C++).",
+        "Icon": "utilities-calculator",
+        "Id": "com.example.cpppriceticker",
+        "License": "GPL-3.0-or-later",
+        "Name": "ZEC Price Ticker (C++)",
+        "Version": "0.1",
+        "Website": ""
+    },
+    "X-KDE-PluginInfo-Name": "com_example_cpppriceticker_plugin", // Matches CMake target name convention
+    "X-Plasma-MainScript": "" // Not used for C++
+    // No X-Plasma-API needed for C++
+}
